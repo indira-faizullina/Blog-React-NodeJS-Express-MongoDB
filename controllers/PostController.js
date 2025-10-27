@@ -49,6 +49,7 @@ export const getOne = async (req, res) => {
         })
     }
 }
+
 export const update = async (req, res) => {
     try {
         const postId = req.params.id
